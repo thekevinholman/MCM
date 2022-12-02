@@ -11,7 +11,8 @@ This MP is based on the previous System Center 2012 Configuration Manager MP
 
 History:
 * 5.0.2207.3 - Original release
-  * SCCM Client Class discovers sitecode property
+  * MECM Client Class discovers sitecode and version properties
+  * Fixed errors on MECM client discovery
   * Added MatchCount property to most monitors to support multiple consecutive samples to reduce noise
   * Removed overrides that were muting alerts from unit monitors
   * Added overrides to disabled alerts from the aggregate rollup monitors and dependency rollup monitors
