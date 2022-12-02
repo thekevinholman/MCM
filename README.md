@@ -11,7 +11,7 @@ This MP is based on the previous System Center 2012 Configuration Manager MP
 
 History:
 * 5.0.2207.3 - Original release
-  * SCCM Client Class should discover sitecode property
+  * SCCM Client Class discovers sitecode property
   * Renamed all Element ID's to include the MP ID, and follow structured rules:
     * Datasource ends with .DS and with Displaystring Datasource
     * ProbeAction ends with .PA and with Displaystring Probe Action
