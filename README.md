@@ -10,10 +10,10 @@
 This MP is based on the previous System Center 2012 Configuration Manager MP
 
 History:
-* 5.0.2211.0
+* 5.0.2211.0 - 1/25/23
   * Reduced frequency of MECM Client Discovery from 60 seconds to once a day.
   * Created an override to disable the SMSExec service monitor for members of the Site Database Computers Group, since this was causing false alarms as Database servers are not typically Site server roles with SMSExec service present.
-* 5.0.2207.3 - Original release
+* 5.0.2207.3 - Original release - 12/2/22
   * MECM Client Class discovers sitecode and version properties
   * Fixed errors on MECM client discovery
   * Added MatchCount property to most monitors to support multiple consecutive samples to reduce noise
