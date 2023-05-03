@@ -1,15 +1,21 @@
-# MECM 5.0.2211.0
+# MECM 5.0.2303.0
 
 ## [Download Here][Download]
 
 [Download]: https://github.com/thekevinholman/MECM/archive/refs/heads/main.zip
 
-### Microsoft Endpoint Configuration Manager (MECM) Management Pack  
-### This MP Discovers and monitors MECM (Previously System Center Configuration Manager)
+### Microsoft Configuration Manager (MCM) Management Pack  
+### This MP Discovers and monitors MCM (Previously Microsoft Endpoint Configuration Manager / System Center Configuration Manager)
 
 This MP is based on the previous System Center 2012 Configuration Manager MP
 
 History:
+* 5.0.2303.0 - 5/3/23
+  * Rebranded MP to Microsoft Configuration Manager
+  * Changed the default service monitor for PXE role to monitor SccmPxe service and disable wdsserver service monitor.
+  * Fixed displayname for PXE rollup monitor
+  * Fixed mispellings for "Secondary"
+  * Updated references to support import in SCOM 2012R2
 * 5.0.2211.0 - 1/25/23
   * Reduced frequency of MECM Client Discovery from 60 seconds to once a day.
   * Created an override to disable the SMSExec service monitor for members of the Site Database Computers Group, since this was causing false alarms as Database servers are not typically Site server roles with SMSExec service present.
