@@ -12,7 +12,7 @@ This MP is based on the previous System Center 2012 Configuration Manager MP
 History:
 * 5.0.2303.0 - 5/3/23
   * Rebranded MP to Microsoft Configuration Manager
-  * Changed the default service monitor for PXE role to monitor SccmPxe service and disable wdsserver service monitor.
+  * Changed the default service monitor for PXE role to monitor (SccmPxe) service and disabled the (wdsserver) service monitor by default.  If you still use WDSSERVER service, please enable that monitor and disable (SCCMPXE) service monitor targeting the PXE server role.
   * Fixed displayname for PXE rollup monitor
   * Fixed mispellings for "Secondary"
   * Updated references to support import in SCOM 2012R2
