@@ -1,4 +1,4 @@
-# MCM 5.0.2303.0
+# MCM 5.0.2303.2
 
 ## [Download Here][Download]
 
@@ -10,6 +10,9 @@
 This MP is based on the previous System Center 2012 Configuration Manager MP
 
 History:
+* 5.0.2303.2 - 8/3/23
+  * Added MCM Clients Folder and State view for discovered Clients
+  * Added Disabled CcmExec service monitor, recovery, and recovery alert rules for CcmExec service on clients
 * 5.0.2303.0 - 5/3/23
   * Rebranded MP to Microsoft Configuration Manager
   * Changed the default service monitor for PXE role to monitor (SccmPxe) service and disabled the (wdsserver) service monitor by default.  If you still use WDSSERVER service, please enable that monitor and disable (SCCMPXE) service monitor targeting the PXE server role.
